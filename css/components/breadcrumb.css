@@ -1,0 +1,9 @@
+/**
+ * @file
+ * Styles for Chajchu's breadcrumbs.
+ */
+
+.breadcrumb {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 0.929em;
+}
