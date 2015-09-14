@@ -2,7 +2,7 @@
 
 body {
   color: #333333;
-  background: #ececec;
+  background-color: white;
 }
 #page,
 #main-wrapper,
@@ -21,8 +21,6 @@ body {
   background-color: #ffffff;
   background-image: -webkit-linear-gradient(top, #ffffff 0%, #ffffff 100%);
   background-image: linear-gradient(to bottom, #ffffff 0%, #ffffff 100%);
-  border-top-style: solid;
-  border-top-width: 8px;
   padding: 10px 0 0 0;
 }
 a,
@@ -44,7 +42,7 @@ a:active,
   border-color: #f9f9f9;
 }
 .site-footer {
-  background: #64ca98 !important;
+  background: #64ca98;
 }
 .region-header,
 .region-header a,
@@ -53,12 +51,14 @@ a:active,
 #name-and-slogan a,
 .site-branding-block a,
 .region-secondary-menu .menu-item a {
-  color: #000000;
+  color: #329998;
 }
 
 .region-header li a.active,
-.region-header li a:hover {
-  color: #ff6600 !important;
+.region-header li a:hover,
+.region-secondary-menu li a.is-active,
+.region-secondary-menu li a:hover{
+  color: #3498db !important;
 }
 
 /* ---------- Color Form ----------- */
