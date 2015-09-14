@@ -283,7 +283,6 @@ img {
     color:#e1f4ee;
 }
 
-
 /* 
  * Searched 
  */
@@ -304,8 +303,8 @@ img {
 
 
 div[id^="searched_"]{
-  border: 2px solid #f6ffd5;
-  background-color: #f6ffd5;
+  border: 2px solid #e1f4ee;
+  background-color: #e1f4ee;
     border-radius: 10px;
     margin:0 0 10px 0;
     padding: 10px;
@@ -322,11 +321,11 @@ div[id^="searched_"] p{
 }
 
 span.highlight{
-  color: #ff6600;
+  color: #34495e;
   font-weight: bold;
 }
 span.normal{
-  color: #000000;
+  color: #34495e;
   font-weight: bold;
 }
 

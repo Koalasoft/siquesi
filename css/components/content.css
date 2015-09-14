@@ -49,7 +49,7 @@ h1#page-title {
 }
 
 #content h2 {
-  color:#000000;
+  color:#34495e;
   margin-bottom: 2px;
   font-size: 1.5em;
   line-height: 1.4;
@@ -65,7 +65,7 @@ h1#page-title {
   padding-top: 0.5em;
 }
 .node--view-mode-teaser h2 a {
-  color: #181818;
+  color: #34495e;
 }
 .node--view-mode-teaser {
   border-bottom: 1px solid #d3d7d9;
