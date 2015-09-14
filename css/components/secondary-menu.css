@@ -1,6 +1,11 @@
 /* --------------- Secondary Menu ------------ */
 .region-secondary-menu {
   float: right;
+  background-color: white;
+  z-index: 9;
+  width: 100%;
+  height: 50px;
+  position: relative;
 }
 
 .region-secondary-menu .menu {

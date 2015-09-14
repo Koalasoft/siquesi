@@ -1,6 +1,7 @@
 /* ------------------ Header ------------------ */
 #header {
   font-family: "Ubuntu", sans-serif;
+  position: relative;
 }
 .header .section {
   position: relative;
@@ -32,6 +33,10 @@
 #logo,
 .site-logo {
   padding: 4px 4px 4px 4px; /* LTR */
+  position: absolute;
+  left: 4em;
+  background-color: white;
+  z-index: 10;
 }
 
 [dir="rtl"] #logo,
@@ -45,64 +50,8 @@
 
   /* Searcher */
 
-  #search-content {
-    position:relative;
-    top:90px;
-    width:100%;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  #edit-need {
-    background: #FFFFFF url(../../images/lensMin.png) no-repeat;
-    margin: 5px 5px 10px 5px;
-    padding: 5px 2px 4px 30px;
-    width: 96%;
-    min-width:129px;
-    height:30px;
-    font-size:1em;
-  }
-  #edit-need:focus {
-    background: #FFFFFF url(../../images/lensaltMin.png) no-repeat;
-    background-color: #FFFFFF;
-  }
-
-  #edit-offer {
-    position:relative;
-    float:left;
-    background: #ff6600;
-    padding: 5px;
-    margin:0px 2px;
-    width: 48%;
-    min-width:70px;
-    height:30px;
-    border: 2px solid #ff6600;
-    -moz-border-radius: 10px;
-    -webkit-border-radius: 10px;
-    border-radius: 10px;
-    font-size:1em;
-    text-align:center;
-    color:#FFFFFF;
-  }
-
-  #edit-demand {
-      position:relative;
-      float:left;
-      background: #000000;
-      padding: 5px;
-      margin: 0 2px;
-      width: 48%;
-      min-width:70px;
-      height:30px;
-      border: 2px solid #000000;
-      -moz-border-radius: 10px;
-      -webkit-border-radius: 10px;
-      border-radius: 10px;
-      font-size:1em;
-      text-align:center;
-      color:#FFFFFF;
-  }
-
   /* Searched */
+  /*
   #searching {
     margin: 80px 0 0px 0;
   }
@@ -114,7 +63,7 @@
   }
   #searched {
     width:100%;
-  }
+  }*/
 
   /* tags */
   #right {
@@ -213,11 +162,13 @@
 @media all and (min-width: 901px) {
   #logo,
   .site-logo {
-    padding: 9px 4px 4px 9px; /* LTR */
+    padding: 0; /* LTR */
   }
   [dir="rtl"] #logo,
   [dir="rtl"] .site-logo {
-    padding: 9px 9px 4px 4px;
+    padding: 0;
+    position: relative;
+    z-index: 9999 !important;
   }
 }
 #name-and-slogan,

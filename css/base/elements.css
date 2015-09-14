@@ -150,7 +150,7 @@ img {
 }
 
 /*
- * Chajchu blocks
+ * blocks
  */ 
  
 /* Language switcher*/
@@ -164,113 +164,123 @@ img {
 /* 
  * Searcher 
  */
-#busqueda {
-    position:relative;
-    float:left;
-    background: #FFFFFF url(../../images/lens.png) no-repeat;
-    background-position: 4px 4px !important;
-    padding: 10px 10px 10px 60px;
-    margin: 0 3px;
-    width: 56%;
-    min-width:250px;
-    height:50px;
-    border: 2px solid #000000;
-    -moz-border-radius: 10px;
-    -webkit-border-radius: 10px;
-    border-radius: 10px;
-    font-size:1.6em;
+
+#block-ps-searcher-block {
+    position: relative;
+    padding: 2em 0.5em;
+    min-height: 18em;
+    background: #329998; /* Old browsers */
+    background: -moz-linear-gradient(left, #329998 0%, #329998 35%, #329998 35%, #64ca98 88%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%,#329998), color-stop(35%,#329998), color-stop(35%,#329998), color-stop(88%,#64ca98)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(left, #329998 0%,#329998 35%,#329998 35%,#64ca98 88%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(left, #329998 0%,#329998 35%,#329998 35%,#64ca98 88%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(left, #329998 0%,#329998 35%,#329998 35%,#64ca98 88%); /* IE10+ */
+    background: linear-gradient(to right, #329998 0%,#329998 35%,#329998 35%,#64ca98 88%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#329998', endColorstr='#64ca98',GradientType=1 );
 }
 
-#edit-need:focus {
-    background: #FFFFFF url(../../images/lensalt.png) no-repeat;
-    background-color: #FFFFFF;
-    border-color: #ff6600;
-    outline: none;
-    -moz-box-shadow: 0 0 0 1px #e8c291 inset;
-    -webkit-box-shadow: 0 0 0 1px #E8C291 inset;
-    box-shadow: 0 0 0 1px #E8C291 inset;
-}
-
-::-webkit-input-placeholder {
-   color: #000000;
-}
-
-:-moz-placeholder { /* Firefox 18- */
-   color: #000000;  
-}
-
-::-moz-placeholder {  /* Firefox 19+ */
-   color: #000000;  
-}
-
-:-ms-input-placeholder {  
-   color: #000000;  
-}
-
-#edit-offer {
-    position:relative;
-    float:left;
-    background: #ff6600;
-    padding: 5px;
-    margin:0px 3px;
-    width: 20%;
-    min-width:70px;
-    height:50px;
-    border: 2px solid #ff6600;
-    -moz-border-radius: 10px;
-    -webkit-border-radius: 10px;
-    border-radius: 10px;
-    font-size:1.8em;
-    text-align:center;
-    color:#FFFFFF;
-}
-
-#edit-offer:hover {
-    border-color: #ff6600;
-    color:#000000;
-}
-
-#edit-demand {
-    position:relative;
-    float:left;
-    background: #000000;
-    padding: 5px;
-    margin: 0 3px;
-    width: 20%;
-    min-width:105px;
-    height:50px;
-    border: 2px solid #000000;
-    -moz-border-radius: 10px;
-    -webkit-border-radius: 10px;
-    border-radius: 10px;
-    font-size:1.8em;
-    text-align:center;
-    color:#FFFFFF;
-}
-
-#edit-demand:hover {
-    border-color: #000000;
-    color:#ff6600;
-}
-
-#page-title {
-  display:none;
+#block-ps-searcher-block .content {
+    margin-top: 3em;
+    background-color: #000066;
 }
 
 #search {
-  position:absolute;
-  left:-1px;
-  top:-30px;
-  width:100%;
-  height:65px;
+    width:49%;
     padding:0;
     margin:0;
+    float: left;
 }
+
+#promotional {
+    width:30%;
+    padding:1em 2em 2em 2em;
+    margin:0;
+    float: right;
+    color: #e1f4ee;
+    text-align: justify;
+    font-size: 1.8em;
+}
+
 #search-content {
-  position:relative;
-  width:71%;
-  margin-left: auto;
-    margin-right: auto;
+    width:100%;
+    padding: 1em 0.5em;
+}
+
+#for-search {
+    position:relative;
+    float:left;
+    background: #FFFFFF url(../../images/lens.svg) no-repeat;
+    background-position: 4px 4px !important;
+    padding: 10px 10px 10px 60px;
+    margin: 0 3px;
+    width: 98%;
+    min-width:250px;
+    height:50px;
+    border: 2px solid #e1f4ee;
+    -moz-border-radius: 25px;
+    -webkit-border-radius: 25px;
+    border-radius: 25px;
+    font-size:1.4em;
+}
+
+#for-search:focus {
+    background: #FFFFFF url(../../images/lensalt.svg) no-repeat;
+    background-color: #FFFFFF;
+    border-color: #34495e;
+    outline: none;
+    -moz-box-shadow: 0 0 0 1px #e1f4ee inset;
+    -webkit-box-shadow: 0 0 0 1px #e1f4ee inset;
+    box-shadow: 0 0 0 1px #e1f4ee inset;
+}
+
+#edit-require {
+    position:relative;
+    float:left;
+    background-color: #64ca98;
+    background-image: none;
+    padding: 5px;
+    margin:0px 3px;
+    width: 45%;
+    min-width:70px;
+    height:50px;
+    border: 2px solid #e1f4ee;
+    -moz-border-radius: 25px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    font-size:1.4em;
+    text-align:center;
+    color:#e1f4ee;
+}
+
+#edit-require:hover {
+    border-color: #e1f4ee;
+    background-color: #64ca98;
+    color:#e1f4ee;
+}
+
+#edit-bid {
+    position:relative;
+    float:right;
+    background-color: Transparent;
+    background-image: none;
+    padding: 5px;
+    margin: 0 10px;
+    width: 45%;
+    min-width:70px;
+    height:50px;
+    border: 2px solid #e1f4ee;
+    -moz-border-radius: 25px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    font-size:1.4em;
+    text-align:center;
+    color:#e1f4ee;
+}
+
+#edit-bid:hover {
+    border-color: #e1f4ee;
+    background-color: #64ca98;
+    color:#e1f4ee;
 }
 
 
@@ -320,56 +330,13 @@ span.normal{
   font-weight: bold;
 }
 
-/* tags */
-#right {
-  position:relative; 
-  float:left;
-  width:280px;
-  margin: 70px 0px;
-}
-
-#right #tags {
-  border: 2px solid #f4e3d7;
-  background-color: #f4e3d7;
+/* Publicity */
+#block-advertisinglateral {
+    border: 2px solid #e1f4ee;
+    background-color: #e1f4ee;
     border-radius: 10px;
     margin:0 0 10px 0;
     padding: 10px;
-}
-
-#right #tags span.weight_1 {
-  font-size:1em;
-  margin: 5px;
-}
-#right #tags span.weight_2 {
-  font-size:1.3em;
-  margin: 5px;
-}
-#right #tags span.weight_3 {
-  font-size:1.6em;
-  margin: 5px;
-}
-#right #tags span.weight_4 {
-  font-size:1.9em;
-  margin: 5px;
-}
-#right #tags span.weight_5 {
-  font-size:2.2em;
-  margin: 5px;
-}
-#right #tags span.weight_6 {
-  font-size:2.5em;
-  margin: 5px;
-}
-#right #tags span.weight_7 {
-  font-size:2.8em;
-  margin: 5px;
-}
-
-/* adsense */
-#right #adsense {
-  border: 2px solid #f4e3d7;
-  background-color: #f4e3d7;
-    border-radius: 10px;
-    margin:0 0 10px 0;
-    padding: 10px;
+    min-height: 500px;
+    text-align: center;
 }

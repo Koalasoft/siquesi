@@ -25,7 +25,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.77472527"
-     inkscape:cx="268.36879"
+     inkscape:cx="30.865242"
      inkscape:cy="240"
      inkscape:current-layer="layer1"
      inkscape:document-units="px"
@@ -48,13 +48,25 @@
     </rdf:RDF>
   </metadata>
   <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Layer">
+    <rect
+       style="fill:#ffffff;fill-opacity:0.74314653;stroke:none"
+       id="rect2992"
+       width="315"
+       height="87"
+       x="0"
+       y="0" />
+  </g>
+  <g
      id="layer1"
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      transform="translate(0,-393)">
     <g
        id="g3806"
-       transform="matrix(2.016,0,0,2.016,-134.13086,3668.9329)">
+       transform="matrix(2.016,0,0,2.016,-136.13086,3668.9329)">
       <text
          sodipodi:linespacing="125%"
          id="text3957"
