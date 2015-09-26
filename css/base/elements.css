@@ -339,3 +339,41 @@ span.normal{
     min-height: 500px;
     text-align: center;
 }
+
+/* Awesomplete */
+div.awesomplete > ul {
+    font-size: 1.4em;
+    left: 0;
+    top: 58px;
+    z-index: 1;
+    background: hsla(0, 0%, 100%, .9);
+    background: linear-gradient(to bottom right, white, hsla(0, 0%, 100%, .8));
+    border: 2px solid #34495e;
+    box-shadow: .05em .2em .6em rgba(0, 0, 0, .2);
+    text-shadow: none;
+}
+
+div.awesomplete > ul > li:hover {
+    background: #90acaf !important;
+    color: black;
+}
+
+div.awesomplete > ul > li[aria-selected="true"] {
+    background: #90acaf !important;
+    color: white;
+}
+
+div.awesomplete mark {
+    background: #34495e;
+    color: white;
+}
+
+div.awesomplete li:hover mark {
+    background: white;
+    color: #34495e;
+}
+
+div.awesomplete li[aria-selected="true"] mark {
+    background: #000;
+    color: inherit;
+}
