@@ -379,8 +379,34 @@ div.awesomplete li[aria-selected="true"] mark {
 }
 
 @media screen and (min-width: 320px) {
-	#promotional {
-		width:100%;
-		padding:0px;
-	}
+
+#logo, .site-logo {
+	position:relative;
+	left:0;
+}
+
+.region-secondary-menu .menu {
+	font-size:1.4em;
+	text-align:center;
+}
+	
+#promotional {
+	width:100%;
+	padding:0px;
+}
+
+#search {
+	width:100%;
+}
+
+#search-content {
+	padding:0px;
+}
+
+
+
+
+
+
+
 }
