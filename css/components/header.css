@@ -14,17 +14,21 @@
   float: left;
 }
 
-@media screen and (min-width: 320px) {
+@media screen and (min-width: 320px) and (max-width: 900px) {
 
 #logo {
 	position:relative !important;
 	left:auto !important;
 	padding:0px !important;
 	float: none !important;
+	width:100% !important;
 }
 
 #logo img {
 	text-align:center;
+	margin: 0 calc(50% - 157.5px);
+	margin: 0 -webkit-calc(50% - 157.5px);
+	margin: 0 -moz-calc(50% - 157.5px);
 }
 
 .region-secondary-menu {
@@ -43,6 +47,7 @@
 #promotional {
 	width:100%;
 	padding:0px;
+	text-align:center;
 }
 
 #search {
@@ -55,16 +60,13 @@
 
 }
 
-@media screen and (min-width: 480px) {
-	
-}
-
 
 @media all and (min-width: 461px) and (max-width: 900px) {
   .region-header {
     margin: .5em 5px .75em;
   }
 }
+
 @media all and (min-width: 901px) {
   .region-header {
     margin: 1em 5px 1.5em;
@@ -90,6 +92,7 @@
 [dir="rtl"] .site-logo {
   padding: 4px 9px 4px 4px;
 }
+
 @media all and (min-width: 240px) and (max-width: 600px) {
   .block-language {
     margin:0 20px !important;
@@ -116,9 +119,7 @@
   #right {
     position:relative; 
     width:100%;
-  }
-
-  
+  } 
 }
 
 @media all and (min-width: 601px) and (max-width: 850px) {
@@ -130,7 +131,7 @@
 
   #search-content {
     position:relative;
-    top:130px;
+    /*top:130px;*/
     width:80%;
     margin-left: auto;
     margin-right: auto;
@@ -206,6 +207,7 @@
     padding: 5px 5px 0 0;
   }
 }
+
 @media all and (min-width: 901px) {
   #logo,
   .site-logo {
@@ -218,6 +220,7 @@
     z-index: 9999 !important;
   }
 }
+
 #name-and-slogan,
 .site-branding-text {
   float: left; /* LTR */
@@ -228,6 +231,7 @@
 [dir="rtl"] .site-branding-text {
   margin: 0 15px 30px 0;
 }
+
 @media all and (min-width: 461px) and (max-width: 900px) {
   #name-and-slogan,
   .site-branding-text {
