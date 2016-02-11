@@ -377,36 +377,3 @@ div.awesomplete li[aria-selected="true"] mark {
     background: #000;
     color: inherit;
 }
-
-@media screen and (min-width: 320px) {
-
-#logo, .site-logo {
-	position:relative;
-	left:0;
-}
-
-.region-secondary-menu .menu {
-	font-size:1.4em;
-	text-align:center;
-}
-	
-#promotional {
-	width:100%;
-	padding:0px;
-}
-
-#search {
-	width:100%;
-}
-
-#search-content {
-	padding:0px;
-}
-
-
-
-
-
-
-
-}

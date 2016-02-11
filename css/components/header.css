@@ -13,6 +13,53 @@
 [dir="rtl"] .region-header {
   float: left;
 }
+
+@media screen and (min-width: 320px) {
+
+#logo {
+	position:relative !important;
+	left:auto !important;
+	padding:0px !important;
+	float: none !important;
+}
+
+#logo img {
+	text-align:center;
+}
+
+.region-secondary-menu {
+	height:auto !important;
+}
+
+.region-secondary-menu .menu {
+	font-size:1.4em !important;
+	text-align:center !important;
+}
+
+#block-ps-searcher-block .content {
+	margin-top:0 !important;
+}
+	
+#promotional {
+	width:100%;
+	padding:0px;
+}
+
+#search {
+	width:100%;
+}
+
+#search-content {
+	padding:0px;
+}
+
+}
+
+@media screen and (min-width: 480px) {
+	
+}
+
+
 @media all and (min-width: 461px) and (max-width: 900px) {
   .region-header {
     margin: .5em 5px .75em;
