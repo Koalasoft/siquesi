@@ -3,4 +3,4 @@ STEPS TO REPRODUCE
 2. Disable blocks that are not needed
 
 NOTES:
-1. The logo is set static in themes/siquesi/templates/page.html.twig
+1. The logo is set staticly at themes/siquesi/templates/page.html.twig
