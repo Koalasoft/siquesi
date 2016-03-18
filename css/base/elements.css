@@ -382,6 +382,15 @@ div.awesomplete {
 	width:100%;
 }
 
+h2.node__title {
+	text-align:center;
+}
+
+.breadcrumb ol {
+	display:none;
+}
+
+
 /*******pagine-contacto*******/
 
 .contact-message-feedback-form .form-item-name #edit-name {
@@ -402,4 +411,123 @@ div.awesomplete {
 }
 
 
+
+/*******blog*******/
+
+#block-siquesi-content {
+    background: #FFFFFF;
+    padding: 1em;
+}
+
+.view-filters {
+    display: inline;
+}
+
+form#views-exposed-form-blog-page-1 {
+    background: #E6E6E6;
+    padding: 1em;
+    text-transform: uppercase;
+}
+
+.js-form-item.form-item.js-form-type-textfield.form-type-textfield.js-form-item-keys.form-item-keys {
+    width: 88% !important;
+	display: inline;
+}
+
+.js-form-item.form-item.js-form-type-textfield.form-type-textfield.js-form-item-keys.form-item-keys label {
+    display: inline;
+	margin-right:0.5em;
+}
+
+input#edit-keys {
+    width: 88%;
+    height: 2.5em;
+    border: none;
+    padding-left: 10px;
+    padding-right: 10px;
+	font-size:1em;
+}
+
+
+#edit-submit-blog {
+    background: #85CCCC;
+    border-radius: 0;
+    height: 2.5em;
+    font-size: 1em;
+	text-transform: uppercase;
+	color:#fff;
+}
+
+.form--inline .form-actions {
+	display:inline;
+}
+
+.form-item, .form-actions {
+	margin-top:0;
+	margin-bottom:0;
+}
+.form--inline .form-item {
+	margin-right:0;
+}
+
+#edit-actions input {
+	margin-right:0em;
+}
+
+#block-siquesi-content h2.node__title {
+	text-align:left;
+}
+
+#block-siquesi-content .node__links .links.inline {
+	background:#029896;
+	padding:10px;
+}
+
+#block-siquesi-content .node__links .links.inline a {
+	color:#fff;
+	text-transform: uppercase;
+}
+
+#block-views-block-mas-leidos-block-1 {
+    background: #fff;
+    border-color: #EAEAEA;
+	padding:0px;
+}
+
+#block-views-block-mas-leidos-block-1 h2 {
+	background: #91CAC7;
+    padding: 10px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+#block-views-block-mas-leidos-block-1 .content {
+	padding:10px;
+}
+
+.view-id-mas_leidos .views-row {
+    padding: 10px 0px;
+    border-bottom: solid 1px #e5e5e5;
+    line-height: 1.5;
+}
+
+.view-id-mas_leidos .views-row .views-field-title {
+	font-weight: 600;
+    font-size: 15px;
+}
+
+.view-id-mas_leidos .views-row .views-field-title a {
+	color:#329998;
+}
+
+.view-id-mas_leidos .views-row .views-field-created {
+	
+}
+
+.region.region-sidebar-second {
+    margin-top: 3.5em;
+}
+
+
+/*******contacto******/
 
